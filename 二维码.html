@@ -6,6 +6,7 @@
         /* 设置body的样式，使其具有居中效果 */
         body {
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh; /* 使用视口高度 */
@@ -16,10 +17,18 @@
         h1 {
             text-align: center; /* 文本居中 */
             font-size: 48px; /* 设置字体大小 */
+            margin-bottom: 20px; /* 在标题和图片之间添加一些空间 */
+        }
+        /* 设置图片的样式 */
+        img {
+            max-width: 100%; /* 图片宽度不超过其容器的宽度 */
+            height: auto; /* 保持图片的宽高比 */
         }
     </style>
 </head>
 <body>
     <h1>张娣专用小黄车</h1>
+    <!-- 替换下面的src属性为您图片的实际URL -->
+    <img src="别动.jpg" alt="别动">
 </body>
 </html>
